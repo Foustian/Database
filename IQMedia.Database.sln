@@ -4,15 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "IQMedia.Database", "IQMedia.Database\IQMedia.Database.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://10.100.1.73:8080/tfs/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = IQMedia.Database\\IQMedia.Database.dbproj
-		SccProjectName1 = IQMedia.Database
-		SccLocalPath1 = IQMedia.Database
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
