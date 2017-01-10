@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_TwitterResults] ADD  CONSTRAINT [DF_IQAgentTwitterResults_ModifiedDate]  DEFAULT (getdate()) FOR [ModifiedDate]

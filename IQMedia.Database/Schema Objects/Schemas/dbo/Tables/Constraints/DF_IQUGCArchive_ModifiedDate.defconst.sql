@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQUGCArchive] ADD  CONSTRAINT [DF_IQUGCArchive_ModifiedDate]  DEFAULT (getdate()) FOR [ModifiedDate]

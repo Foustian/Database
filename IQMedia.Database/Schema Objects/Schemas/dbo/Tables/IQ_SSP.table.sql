@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[IQ_SSP] (
+    [Database_Key]      VARCHAR (10)   NULL,
+    [IQ_CC_Key]         VARCHAR (28)   NULL,
+    [title120]          VARCHAR (100) NULL,
+    [tf_host]           VARCHAR (40)   NULL,
+    [tf_cast1]          VARCHAR (36)   NULL,
+    [tf_cast2]          VARCHAR (36)   NULL,
+    [tf_cast3]          VARCHAR (36)   NULL,
+    [tf_cast4]          VARCHAR (36)   NULL,
+    [tf_cast5]          VARCHAR (36)   NULL,
+    [tf_cast6]          VARCHAR (36)   NULL,
+    [desc100]           VARCHAR (100) NULL,
+    [tf_description2]   VARCHAR (440)  NULL,
+    [tf_description3]   VARCHAR (440)  NULL,
+    [IQ_Dma_Num]        VARCHAR (3)    NULL,
+    [IQ_Dma_Name]       VARCHAR (26)  NULL,
+    [IQ_Class_Num]      VARCHAR (2)    NULL,
+    [IQ_Class]          VARCHAR (13)   NULL,
+    [IQ_Start_Point]    FLOAT          NULL,
+    [IQ_Cat_Num]        VARCHAR (2)    NULL,
+    [IQ_Cat]            VARCHAR (8)    NULL,
+    [Station_Affil_Num] VARCHAR (2)    NULL,
+    [Station_Affil]     VARCHAR (13)   NULL,
+    [iq_part]           INT            NULL,
+    [iq_segs]           NUMERIC (11)   NULL,
+    [iq_Start_Minute]   NCHAR (2)      NULL
+);
+

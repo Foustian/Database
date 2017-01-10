@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQ_Five_Min_Staging] ADD  CONSTRAINT [DF_IQ_Five_MS_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]

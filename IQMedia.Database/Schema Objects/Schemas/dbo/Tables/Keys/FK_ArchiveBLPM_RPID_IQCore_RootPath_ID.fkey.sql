@@ -1,0 +1,6 @@
+﻿ALTER TABLE [dbo].[ArchiveBLPM]  WITH CHECK ADD  CONSTRAINT [FK_ArchiveBLPM_IQCore_RootPath] FOREIGN KEY([RPID])
+REFERENCES [dbo].[IQCore_RootPath] ([ID])
+GO
+
+ALTER TABLE [dbo].[ArchiveBLPM] CHECK CONSTRAINT [FK_ArchiveBLPM_IQCore_RootPath]
+GO

@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_NMResults] ADD  CONSTRAINT [DF_IQAgentNMResult_IsActive]  DEFAULT ((1)) FOR [IsActive]

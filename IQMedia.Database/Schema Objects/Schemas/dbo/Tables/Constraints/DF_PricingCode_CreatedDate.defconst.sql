@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[PricingCode] ADD  CONSTRAINT [DF_PricingCode_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]

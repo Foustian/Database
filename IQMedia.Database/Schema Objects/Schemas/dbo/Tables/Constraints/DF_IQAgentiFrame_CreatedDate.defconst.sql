@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgentiFrame] ADD  CONSTRAINT [DF_IQAgentiFrame_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]

@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQNotificationSettings] ADD  CONSTRAINT [DF_IQNotificationSettings_ModifiedDate]  DEFAULT (getdate()) FOR [ModifiedDate]

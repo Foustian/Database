@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_TVResults] ADD  CONSTRAINT [DF_IQAgent_TVResults_IsActive]  DEFAULT ((1)) FOR [IsActive]

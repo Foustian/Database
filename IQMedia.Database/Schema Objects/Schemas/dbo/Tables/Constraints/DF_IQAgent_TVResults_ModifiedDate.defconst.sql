@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_TVResults] ADD  CONSTRAINT [DF_IQAgent_TVResults_ModifiedDate]  DEFAULT (getdate()) FOR [ModifiedDate]

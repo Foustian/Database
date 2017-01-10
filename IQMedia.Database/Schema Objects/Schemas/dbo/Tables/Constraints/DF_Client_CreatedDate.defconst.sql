@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[Client] ADD  CONSTRAINT [DF_Client_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]

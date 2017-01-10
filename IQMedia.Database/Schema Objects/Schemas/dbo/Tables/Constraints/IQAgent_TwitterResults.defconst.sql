@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_TwitterResults] ADD  CONSTRAINT [DF_IQAgentTwitterResult_IsActive]  DEFAULT ((1)) FOR [IsActive]

@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_SummaryTracking] ADD  CONSTRAINT [DF_IQAgent_SummaryTracking_DateTime]  DEFAULT (getdate()) FOR [DateTime]

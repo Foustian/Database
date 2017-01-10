@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[ArchiveClip] ADD  CONSTRAINT [DF_ArchiveClip_CreatedBy]  DEFAULT ('System') FOR [CreatedBy]

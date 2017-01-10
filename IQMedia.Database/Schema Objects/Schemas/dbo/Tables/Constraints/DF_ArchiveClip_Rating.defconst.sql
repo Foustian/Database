@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[ArchiveClip] ADD  CONSTRAINT [DF_ArchiveClip_Rating]  DEFAULT ((1)) FOR [Rating]

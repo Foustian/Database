@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[RL_CC_TEXT] ADD  CONSTRAINT [DF_RL_CC_TEXT_ModifiedBy]  DEFAULT ('System') FOR [ModifiedBy]

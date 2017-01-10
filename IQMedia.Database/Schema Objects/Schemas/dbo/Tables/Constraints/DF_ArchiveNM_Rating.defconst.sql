@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[ArchiveNM] ADD  CONSTRAINT [DF_ArchiveNM_Rating]  DEFAULT ((1)) FOR [Rating]

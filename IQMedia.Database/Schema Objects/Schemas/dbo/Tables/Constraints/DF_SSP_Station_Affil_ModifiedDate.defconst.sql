@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[SSP_Station_Affil] ADD  CONSTRAINT [DF_SSP_Station_Affil_ModifiedDate]  DEFAULT (getdate()) FOR [ModifiedDate]

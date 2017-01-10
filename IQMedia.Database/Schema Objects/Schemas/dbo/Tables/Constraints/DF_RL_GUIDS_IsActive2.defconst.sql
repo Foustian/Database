@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[RL_GUIDS2]
+    ADD CONSTRAINT [DF_RL_GUIDS_IsActive2] DEFAULT ((1)) FOR [IsActive];
+

@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQDiscovery_SavedSearch] ADD  CONSTRAINT [DF_IQDiscovery_SavedSearch_DateModified]  DEFAULT (getdate()) FOR [DateModified]

@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_NMResults] ADD  CONSTRAINT [DF_IQAgent_NMResults_h_Comm_flag]  DEFAULT ((0)) FOR [h_comm_flag]

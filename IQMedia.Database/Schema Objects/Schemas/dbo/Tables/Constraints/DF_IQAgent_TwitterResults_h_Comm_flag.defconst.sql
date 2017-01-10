@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_TwitterResults] ADD  CONSTRAINT [DF_IQAgent_TwitterResults_h_Comm_flag]  DEFAULT ((0)) FOR [h_comm_flag]

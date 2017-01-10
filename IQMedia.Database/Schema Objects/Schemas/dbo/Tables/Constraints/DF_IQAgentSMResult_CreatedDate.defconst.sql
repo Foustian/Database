@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQAgent_SMResults] ADD  CONSTRAINT [DF_IQAgentSMResult_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]

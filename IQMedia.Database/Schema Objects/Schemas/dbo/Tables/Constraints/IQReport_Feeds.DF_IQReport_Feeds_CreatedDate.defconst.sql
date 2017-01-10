@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[IQReport_Feeds] ADD  CONSTRAINT [DF_IQReport_Feeds_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]

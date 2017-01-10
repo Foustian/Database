@@ -1,0 +1,1 @@
+﻿ALTER TABLE [dbo].[fliQ_Exception] ADD  CONSTRAINT [DF_fliq_Exception_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]
